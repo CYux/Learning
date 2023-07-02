@@ -1,0 +1,141 @@
+{% extends "vtube/heading.html" %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="{% static 'vtube/script.js' %}"></script>
+    <title>Video Sharing Web</title>
+{% block body %}
+    <!-- ------------ sidebar ------ -->
+    <div class="sidebar">
+        <div class="shortcut-links">
+            <a href=""><img src="{% static 'vtube/images/home.png' %}"><p>Home</p></a>
+            <a href=""><img src="{% static 'vtube/images/explore.png' %}"><p>Explore</p></a>
+            <a href=""><img src="{% static 'vtube/images/subscription.png' %}"><p>Subscription</p></a>
+            <a href=""><img src="{% static 'vtube/images/library.png' %}"><p>Libery</p></a>
+            <a href=""><img src="{% static 'vtube/images/history.png' %}"><p>History</p></a>
+            <a href=""><img src="{% static 'vtube/images/playlist.png' %}"><p>Playlist</p></a>
+            <a href=""><img src="{% static 'vtube/images/messages.png' %}"><p>Message</p></a>
+            <a href=""><img src="{% static 'vtube/images/show-more.png' %}"><p>Show More</p></a>
+        </div>
+        <hr/>
+        <div class="subscribed-list">
+            <h3>SUBSCRIBED</h3>
+            <a href=""><img src="{% static 'vtube/images/Jack.png' %}"><p>Jack Nicholson</p></a>
+            <a href=""><img src="{% static 'vtube/images/simon.png' %}"><p>Simon Baker</p></a>
+            <a href=""><img src="{% static 'vtube/images/tom.png' %}"><p>Tom Hardy</p></a>
+            <a href=""><img src="{% static 'vtube/images/megan.png' %}"><p>Megan Ryan</p></a>
+            <a href=""><img src="{% static 'vtube/images/cameron.png' %}"><p>Cameron Diaz</p></a>
+        </div>
+    </div>
+    <!-- ------------ main ------------ -->
+    <div class="container">
+        <div class="banner">
+            <img src="{% static 'vtube/images/banner.png' %}">
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="play-video"><img src="{% static 'vtube/images/thumbnail1.png' %}" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="{% static 'vtube/images/Jack.png' %}">
+                    <div class="vid-info">
+                        <a href="play-video">Best channel to learn coding that help you to be a web developer</a>
+                        <p>Easy Turotials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play-video"><img src="{% static 'vtube/images/thumbnail2.png' %}" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="{% static 'vtube/images/Jack.png' %}">
+                    <div class="vid-info">
+                        <a href="play-video">Best channel to learn coding that help you to be a web developer</a>
+                        <p>Easy Turotials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play-video"><img src="{% static 'vtube/images/thumbnail3.png' %}" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="{% static 'vtube/images/Jack.png' %}">
+                    <div class="vid-info">
+                        <a href="play-video">Best channel to learn coding that help you to be a web developer</a>
+                        <p>Easy Turotials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play-video"><img src="{% static 'vtube/images/thumbnail4.png' %}" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="{% static 'vtube/images/Jack.png' %}">
+                    <div class="vid-info">
+                        <a href="play-video">Best channel to learn coding that help you to be a web developer</a>
+                        <p>Easy Turotials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="vid-list">
+                <a href="play-video"><img src="{% static 'vtube/images/thumbnail5.png' %}" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="{% static 'vtube/images/Jack.png' %}">
+                    <div class="vid-info">
+                        <a href="play-video">Best channel to learn coding that help you to be a web developer</a>
+                        <p>Easy Turotials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play-video"><img src="{% static 'vtube/images/thumbnail6.png' %}" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="{% static 'vtube/images/Jack.png' %}">
+                    <div class="vid-info">
+                        <a href="play-video">Best channel to learn coding that help you to be a web developer</a>
+                        <p>Easy Turotials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play-video"><img src="{% static 'vtube/images/thumbnail7.png' %}" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="{% static 'vtube/images/Jack.png' %}">
+                    <div class="vid-info">
+                        <a href="play-video">Best channel to learn coding that help you to be a web developer</a>
+                        <p>Easy Turotials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play-video"><img src="{% static 'vtube/images/thumbnail8.png' %}" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="{% static 'vtube/images/Jack.png' %}">
+                    <div class="vid-info">
+                        <a href="play-video">Best channel to learn coding that help you to be a web developer</a>
+                        <p>Easy Turotials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,24 @@
+    <link rel="stylesheet" href="{% static 'vtube/style.css' %}">
+</head>
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="{% static 'vtube/images/menu.png' %}" class="menu-icon" alt="menu">
+            <img src="{% static 'vtube/images/logo.png' %}" class="logo-icon" alt="logo">
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search">
+                <img src="{% static 'vtube/images/search.png' %}" alt="search">
+            </div>
+            <img src="{% static 'vtube/images/voice-search.png' %}" class="mic-icon" alt="voice-search">
+        </div>
+        <div class="nav-right flex-div">
+            <img src="{% static 'vtube/images/upload.png' %}" alt="upload">
+            <img src="{% static 'vtube/images/more.png' %}" alt="more">
+            <img src="{% static 'vtube/images/notification.png' %}" alt="notification">
+            <img src="{% static 'vtube/images/Jack.png' %}" alt="Jack" class="user-icon">
+        </div>
+    </nav>
+    {% block body %}
+    {% endblock %}
